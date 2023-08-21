@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel = "stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navigation">
+            <ul>
+                <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+                <li><a href="#about"  onclick="toggleMenu();">About</a></li>
+                <li><a href="#skills"  onclick="toggleMenu();">Skills</a></li>
+                <!-- <li><a href="#experience"  onclick="toggleMenu();">Experience</a></li> -->
+                <li><a href="#projects" onclick="toggleMenu();">Projects</a></li>
+                <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+            </ul>
+            <div class="theme"></div>
+        </div>
+        <div class="main">
+            <div class="topbar">
+                <a href="#" class = "logo">Portfolio</a>
+                <div class="toggle">
+                    <i class="fa fa-bars" aria-hidden="true"></i>
+                </div>
+            </div>
+            <!-- Home -->
+            <section class="banner" id="banner">
+               <div class="content">
+                <div class="imgBx">
+                    <img src="image/myimage1.png">
+                </div>
+                <h3>Vanshika</h3>
+                <p>I'm a Web Developer</p>
+                <a href = "resume/My Resume.pdf" target="_blank" download="resume" class="btn">Download CV</a>
+                <ul class = "socialmedia">
+                    <li><a href="https://github.com/Vanshika3004" target="_blank"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                    <li><a href="https://www.linkedin.com/in/vanshika-pahwa" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
+                    <!-- <li><a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a></li> -->
+                </ul>
+               </div>
+            </section>
+            <!-- About -->
+            <section class="about adjust" id="about">
+             <div class="title">
+                <h2>About Me</h2>
+             </div>
+             <div class="content">
+                <div class="textbox">
+                    <p>
+                        I'm Vanshika , a passionate computer science enthusiast currently in the final year of my bachelor's degree program. I thrive as a passionate problem solver, driven by the challenge of finding innovative solutions to complex issues . I'm always excited to embrace new challenges that push the boundaries of my knowledge.<br>I am outgoing , dedicated and open-minded , I get across to people and adjust to changes with ease. I enjoy working closely with team members to ensure workloads are effectively redirected and  personally picking up the slack when necessary .Therefore I believe that a person should work on developing their professional skills and learning new things all the time.<br><br>As I await the opportunity to contribute to the industry, I am eagerly anticipating the chance to showcase the skills and expertise I have developed. During this waiting period, I am focused on enhancing my abilities and knowledge, ensuring that I can hit the ground running once I become a part of the team. I am excited to collaborate with colleagues, share insights, and work collectively towards the company's success. 
+                        
+                        
+                        <!-- This time of anticipation serves as an opportunity for me to immerse myself in the company's values and mission, aligning my aspirations with its long-term goals.  -->
+                    </p>
+                </div>
+                <div class="imgBx">
+                    <img src="image/about.jpeg">
+                </div>
+             </div>
+            </section>
+
+            <!-- Skills -->
+            <section class="skills adjust" id="skills">
+               <div class="title">
+                <h2>My Skills</h2>
+               </div>
+               <p class="try">HTML</p>
+               <div class="container">
+                 <div class="skills html">95%</div>
+               </div>
+               <p class="try">CSS</p>
+             <div class="container">
+           <div class="skills css">85%</div>
+             </div>
+             <p class="try">JavaScript</p>
+          <div class="container">
+            <div class="skills js">60%</div>
+          </div>
+          <p class="try">C++</p>
+         <div class="container">
+           <div class="skills cpp">50%</div>
+         </div>
+         <p class="try">DSA</p>
+         <div class="container">
+           <div class="skills dsa">40%</div>
+         </div>
+         <p class="try">JAVA</p>
+         <div class="container">
+           <div class="skills java">70%</div>
+         </div>
+         <p class="try">MySQL</p>
+         <div class="container">
+           <div class="skills mysql">65%</div>
+         </div>
+
+            </section>
+
+            <!-- Experience -->
+            <!-- <section>
+
+            </section> -->
+
+            <!-- Projects -->
+            <section class = "projects adjust" id="projects">
+                <div class="title">
+                    <h2>My Projects</h2>
+                    <p>Some of my work done in different projects. </p>
+                </div>
+                <div class="content">
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <a href="https://vanshika3004.github.io/Chrome-Extension.github.io/" target="_blank">
+                            <img src="image/proj1.jpg"> 
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 01</h3>
+                        </div>
+                    </a>   
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <a href=" https://vanshika3004.github.io/TO-DO-LIST.github.io/" target="_blank">
+                            <img src="image/proj2.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 02</h3>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <a href=" https://vanshika3004.github.io/BlackJack.github.io/" target="_blank">
+                            <img src="image/proj3.png">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 03</h3>
+                        </div>
+                    </a>
+                    </div>
+                    <div class="workBx">
+                        <div class="imgBx">
+                            <a href="https://vanshika3004.github.io/Virtual-Voice-Assistant/" target="_blank">
+                            <img src="image/proj4.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 04</h3>
+                        </div>
+                    </a>
+                    </div>
+                     <div class="workBx">
+                        <div class="imgBx">
+                            <a href="https://vanshika3004.github.io/Passenger-Counter.github.io/" target="_blank">
+                            <img src="image/proj5.jpg">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 05</h3>
+                        </div>
+                    </a>
+                    </div>
+                    <!-- <div class="workBx">
+                        <div class="imgBx">
+                            <img src="image/port1.png">
+                        </div>
+                        <div class="textBx">
+                            <h3>Project 06</h3>
+                        </div>
+                    </div>   -->
+                </div>
+                </section>
+
+    <!-- Contact -->
+    <section class = "contact adjust" id="contact">
+        <div class="title">
+            <h2>Contact Me</h2>
+            <p><b>Get in Touch ! </b>Looking for new opportunities where I can use my skills to the advantange of the company .<br> For more info , send me a message .</p>
+        </div>
+        <div class="contactform">
+            <div class="row">
+                <!-- <input type="text" name="" placeholder="First Name">
+                <input type="text" name="" placeholder="Last Name"> -->
+            </div>
+            <div class="row">
+                <!-- <input type="text" name="" placeholder="Email Address">
+                <input type="text" name="" placeholder="Mobile No."> -->
+            </div>
+            <div class="row2">
+                <!-- <textarea placeholder="Message"></textarea> -->
+            </div> 
+            <div class="row2">
+                <a href="https://wa.me/9643812480" target="_blank">
+                <input type = "submit" value="Send"> 
+                </a>
+            </div>
+        </div>
+        </section>
+        <!-- Copyright -->
+        <div class="copyright">
+            <p>Copyrights @VANSHIKA . All Rights Reserved.</p>
+        </div>
+        </div>
+        </div>
+    <script src="script.js"></script>
+</body>
+</html>
