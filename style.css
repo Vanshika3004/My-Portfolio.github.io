@@ -166,6 +166,7 @@ h3{
 }
 p{
     color: #777;
+    line-height: 2rem;
 }
 .dark p{
     color: var(--black);
@@ -247,19 +248,20 @@ p{
 .about .content{
     display: flex;
     justify-content: space-between;
-    margin-top: 40px;
+    margin-top: 4rem;
 }
 .about .content .textbox{
-    width: 45%;
-    min-width: 45%;
+    width: 100%;
+    line-height: 2rem;
 }
-.about .content .imgBx{
+/* .about .content .imgBx{
     margin-left: 40px;
-}
-.about .content .imgBx img{
+} */
+/* .about .content .imgBx img{
     max-width: 100%;
-    /* max-height: 70%; */
-}
+    max-height: 70%;
+} */
+ 
 /* Skills */
 
 .container {
@@ -281,7 +283,7 @@ p{
 .css {width: 85%; background-color:#27AE60;} 
 .js {width: 60%; background-color:#27AE60;} 
 .cpp {width: 50%; background-color:#27AE60;} 
-.dsa{width: 40%; background-color:#27AE60;}
+.react{width: 50%; background-color:#27AE60;}
 .java{width: 70%; background-color:#27AE60;}
 .mysql{width: 65%; background-color:#27AE60;}
 
