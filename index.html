@@ -205,30 +205,47 @@
                 </section>
 
     <!-- Contact -->
-    <section class = "contact adjust" id="contact">
+    <section class="contact adjust" id="contact">
         <div class="title">
             <h2>Contact Me</h2>
-            <p><b>Get in Touch ! </b>Looking for new opportunities where I can use my skills to the advantange of the company .<br> For more info , send me a message .</p>
+            <p>
+                <b>Let's Connect!</b> I am always open to discussing new opportunities where I can apply my skills and contribute to the growth of the company. <br> Feel free to reach out if you'd like to collaborate or just have a conversation.
+            </p>
+            
         </div>
         <div class="contactform">
-            <div class="row">
-                <!-- <input type="text" name="" placeholder="First Name">
-                <input type="text" name="" placeholder="Last Name"> -->
-            </div>
-            <div class="row">
-                <!-- <input type="text" name="" placeholder="Email Address">
-                <input type="text" name="" placeholder="Mobile No."> -->
-            </div>
+            <form
+                action="https://formspree.io/f/mgvvbykl"
+                method="POST"
+            >
+
             <div class="row2">
-                <!-- <textarea placeholder="Message"></textarea> -->
-            </div> 
-            <div class="row2">
-                <a href="https://wa.me/9643812480" target="_blank">
-                <input type = "submit" value="Send"> 
-                </a>
+                <label for="name">Your Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your name" required />
             </div>
+                <div class="row2">
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email" required />
+                </div>
+                <div class="row2">
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Enter your message" required></textarea>
+                </div>
+                <div class="row2">
+                    <button type="submit">Send</button>
+                </div>
+            </form>
         </div>
-        </section>
+
+        <!-- Success Message Modal -->
+<div id="successModal" class="modal hidden">
+<div class="modal-content">
+    <h2>Message Sent!</h2>
+    <p>Thank you for reaching out. I'll get back to you as soon as possible!</p>
+    <button id="closeModal">Close</button>
+</div>
+</div>
+    </section>
         <!-- Copyright -->
         <div class="copyright">
             <p>Copyrights @VANSHIKA . All Rights Reserved.</p>

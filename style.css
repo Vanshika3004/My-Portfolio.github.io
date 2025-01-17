@@ -36,12 +36,15 @@ body{
     align-items: center;
     overflow: hidden;
     transition: width 0.5s , left 0.5s;
+    left: -300px; 
+    z-index: 9999; 
 }
 .dark .navigation{
     border-right: 1px solid rgba(0 , 0 , 0 , 0.5);   
 }
 .navigation.active{
-    width: 0;
+    left: 0;
+    width: 300px;
 }
 .navigation ul{
     position: relative;
@@ -81,8 +84,8 @@ body{
     transition: width 0.5s , left 0.5s;
 }
 .main.active{
-    width: calc(100% - 0px);
-    left: 0px;
+    width: calc(100% - 300px);
+    left: 300px;
 }
 .main .topbar{
     position: fixed;
@@ -303,7 +306,7 @@ p{
     font-weight: 600;
   }
   
-  /* Optional: Background color or effects for hover */
+  /* effects for hover */
   .skill-card:hover {
     cursor: pointer;
     background-color: #eafaf1;
@@ -314,6 +317,9 @@ p{
     .skill-card {
       width: 120px;
       height: 150px;
+    }
+    .skill-card h3{
+        font-size: 12px;
     }
   }
   
